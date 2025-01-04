@@ -1,0 +1,33 @@
+html, body {
+    height: auto;
+    background-color: aquamarine;
+    margin: 3px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 44px;
+    color: orangered;
+    font-weight: bolder;
+}
+p, a, ol, ul, h3, button {
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+button {
+    color: white;
+    background-color: #1ca71c;
+    transition: cubic-bezier(1, 0, 0, 1);
+}
+/* p1, p2, p3 {
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 5px, solid, cornflowerblue;
+} */
+.details p {
+    border: 3px solid red;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 1px 1px gray;
+}
